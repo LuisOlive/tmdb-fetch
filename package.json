@@ -1,0 +1,49 @@
+{
+  "name": "tmdb-fetch",
+  "version": "0.9.8",
+  "description": "tmdb api client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx rimraf dist & npx webpack --mode production",
+    "start": "npx webpack serve --mode development"
+  },
+  "author": "Luis Olivares <luisolivaresesimez@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.4",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/runtime": "^7.16.5",
+    "@types/node": "^16.4.10",
+    "babel-loader": "^8.2.3",
+    "dotenv": "^10.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.3.5",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.1"
+  },
+  "dependencies": {
+    "object-to-querystring": "^1.0.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisOlive/tmdb-fetch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LuisOlive/tmdb-fetch/issues"
+  },
+  "homepage": "https://github.com/LuisOlive/tmdb-fetch#readme",
+  "keywords": [
+    "tmdb",
+    "fetch",
+    "api",
+    "api rest",
+    "ajax",
+    "movies",
+    "series"
+  ]
+}
