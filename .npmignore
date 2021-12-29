@@ -1,8 +1,7 @@
+.vscode
+node_modules
 src
 .env
-node_modules
-.vscode
-src
 .gitignore
 tsconfig.json
 webpack.config.js

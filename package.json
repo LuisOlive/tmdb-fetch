@@ -1,7 +1,7 @@
 {
   "name": "tmdb-fetch",
-  "version": "0.9.8",
-  "description": "tmdb api client",
+  "version": "0.9.99",
+  "description": "unofficial small tmdb api client",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {

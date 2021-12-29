@@ -1,5 +1,7 @@
 # tmdb-fetch
 
+unofficial small tmdb api client
+
 get info of millions of movies and series from the public api of https://www.themoviedb.org/
 
 this library provides functions to generate request links if you don't know api process
